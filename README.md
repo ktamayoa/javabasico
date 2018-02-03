@@ -1,2 +1,3 @@
-# javabasico
-Pruebas de aprendizaje de java básico
+# JAVA BASICO
+## Introducción
+Programa simple de java 'Hola Mundo'
