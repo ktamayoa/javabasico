@@ -1,3 +1,5 @@
+package operadores.ejemplo;
+
 public class Operadores {
 	public static void main(String[] args) {
 		
@@ -29,7 +31,7 @@ public class Operadores {
 		// Expresion compuesta, con varios operadores combinados
 		int puntuacion = 12;
 		int total = 325 + (puntuacion * 22);
-		System.out.prinln(total);
+		System.out.println(total);
 
 		// Incremento (Sufijo)
 		int x = 3;

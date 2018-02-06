@@ -1,3 +1,5 @@
+package operadores.ejemplo;
+
 public class Prioridad1 {
 	public static void main(String[] args) {
 		int y = 21;
