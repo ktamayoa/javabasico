@@ -1,0 +1,79 @@
+*Como compilo en eclipse? o no es necesario - Netbeans primero compila (Build) y luego ejecuta (Run).
+Eclipse compila y ejecuta? 
+R. Si lo hace está marcado automático en Menú Project - Build Automático con esta configuración solo se ejecuta
+
+
+*En netbeas no fue necesario colocar el package???
+R. netbeas no pone el package pero si lo agrupa, en eclipse si lo coloca. gané un helado por esto :) :)
+
+
+*En eclipse el .class está en C:\Users\ktamayo\workspace\Anatomia\bin\Anatomia - Netbeans está en carpeta build/classes
+R. Se puede setear la carpeta para enviar los archivos .class
+En el proyecto click derecho Properties Java Build Path pestaña Source en la parte inferior Default output folder
+
+
+*Cómo sabe eclipse que esa es la clase por la que quiero que empiece el main - NetBeans se setea Run File
+R. La clase por la que quiero que empiece tiene el main las demás puden o no tenerlo y son llamadas por la principal
+En este archivo MANIFEST.MF tiene Main-Class: para indicar la clase por donde arrancar ejm: com.cobiscorp.cobis.utils.installer.RunInstaller
+Los compilados de las clases java son .class estos .class pueden armar un paquete jar el jar puede estar formado por .class y otros paquetes 
+
+El .jar puede ser visto arrastrándolo a un win.rar y los .class pueden ser arrastrados del win.rar a la aplicación java Decompiler para ver su contenido
+
+
+* Estándares en nombre de variables
+R. Convenciones en nombre de elementos:
+Paquete en minúsculas
+Clases la primera mayúscula
+Constantes todas mayúsculas y separadas por guión bajo
+Variables en camelCase no existe en Cobis estándar de varaibles con nombre de tipo ejem: int intNumero
+Objeto la primera en mayúscula ejm String
+
+
+* String no es considerada variable sino Objeto??
+R. Porque tiene métodos, es un tipo compuesto ejm: .equals(), .toUpperCase(), .toLowerCase(), .length(), .indexOf
+
+
+* java no usa constantes? (final y static final) 
+R. final mantiene el valor durante toda la ejecución no puede cambiar su valor
+   static final es una única dirección de memoria, la misma referencia hacia todas las instancias sin static cada una tiene su copia
+ 
+ 
+* Existe alguna combinación de letras para uso del Intellisense - Netbeans se parece más a .net
+R. Ctrl + Barra Espaciadora
+Window/Preferences escribir Keys y buscar colocar la combinación de teclas cambiar
+
+
+*Condicionales: if, else, switch, case, break, default
+
+*Operadores: ==, !=, >, <, =, <=, ? (operador ternario)
+
+*Loops (bucles): for, while (se ejecuta solo si la condición es verdadera), do...while (se ejecuta al menos una vez sin comprobar la condición)
+ break: rompe el lazo sin importar la condición 
+ continue: hace que el loop se salga de la iteración de ese momento pero regresa al inicio del loop y se sigue ejecutando
+
+* Cómo pongo un punto de quiebre?
+R. doble click en el borde, 
+
+* Cómo poner un watch de las variables?
+R: Click derecho watch
+Debug la cucaracha (se crea una Perspectiva)
+F5 ejecutar dentro
+F6 ejecutar sobre
+F8 ejecutar todo
+
+ * Cómo busco una palabra para reemplazar en el archivo?
+ R: Ctrl+F
+
+
+* Cómo renombro una clase?
+R. Ubicarme en el nombre de la clase y cambiarlo, la herramienta te envía el mensaje de renombrarla
+Ctrl+1 sugerencias para corregir el error
+
+
+* Array agrupación de variables, relacionadas y del mismo tipo
+String pais, String [] pais
+
+
+
+
+
