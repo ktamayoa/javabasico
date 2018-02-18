@@ -32,7 +32,7 @@ public class _3ContadorLetras {
 			}
 		}
 		for (int contador3 = 'A'; contador3 <= 'Z'; contador3++) {
-			System.out.println(contador3 + ": " + contadorLetras[contador3 - 'A'] + " ");
+			System.out.print((char)contador3 + ": " + contadorLetras[contador3 - 'A'] + " ");
 		}
 	}
 }
