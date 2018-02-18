@@ -1,6 +1,6 @@
 package cadena.ejemplo;
 
-public class ConcatenacionVariable {
+public class _5ConcatenacionVariable {
 
 	public static void main(String[] args) {
 		int numero = 143;

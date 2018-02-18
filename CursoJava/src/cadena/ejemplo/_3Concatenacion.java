@@ -1,6 +1,6 @@
 package cadena.ejemplo;
 
-public class Concatenacion {
+public class _3Concatenacion {
 
 	public static void main(String[] args) {
 		System.out.println(" \'Descubrir\' El verdadero viaje de descubrimiento consiste"

@@ -1,6 +1,6 @@
 package cadena.ejemplo;
 
-public class MetodoEquals {
+public class _6MetodoEquals {
 
 	public static void main(String[] args) {
 		String respuesta = "amarillo";

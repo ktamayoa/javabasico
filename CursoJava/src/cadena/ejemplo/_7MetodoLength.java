@@ -1,6 +1,6 @@
 package cadena.ejemplo;
 
-public class MetodoLength {
+public class _7MetodoLength {
 
 	public static void main(String[] args) {
 		

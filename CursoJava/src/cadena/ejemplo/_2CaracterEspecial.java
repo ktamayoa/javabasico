@@ -1,6 +1,6 @@
 package cadena.ejemplo;
 
-public class CaracterEspecial {
+public class _2CaracterEspecial {
 
 	public static void main(String[] args) {
 		System.out.println("La mejor canción de Victor Jara es \n\"Te recuerdo Amanda\"");

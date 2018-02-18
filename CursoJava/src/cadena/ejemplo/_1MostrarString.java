@@ -1,6 +1,6 @@
 package cadena.ejemplo;
 
-public class MostrarString {
+public class _1MostrarString {
 
 	public static void main(String[] args) {
 		

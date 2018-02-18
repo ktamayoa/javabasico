@@ -1,6 +1,6 @@
 package cadena.ejemplo;
 
-public class MetodosCase {
+public class _8MetodosCase {
 
 	public static void main(String[] args) {
 		String nombre = "Katty Tamayo";

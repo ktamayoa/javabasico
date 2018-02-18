@@ -1,6 +1,6 @@
 package cadena.ejemplo;
 
-public class ConcatenacionSimplificada {
+public class _4ConcatenacionSimplificada {
 
 	public static void main(String[] args) {
 		
