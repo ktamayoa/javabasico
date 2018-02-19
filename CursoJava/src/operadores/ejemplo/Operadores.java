@@ -3,33 +3,33 @@ package operadores.ejemplo;
 public class Operadores {
 	public static void main(String[] args) {
 		
-		// Adicion
+		// Adición
 		int altura = 123;
 		altura = altura + 10;
 		System.out.println("Suma=" + altura);
 		
-		// Sustraccion
+		// Sustracción
 		altura = 123;
 		altura = altura - 10;
 		System.out.println("Resta=" + altura);
 
-		// Multiplicacion
+		// Multiplicación
 		altura = 123;
 		altura = altura * 10;
-		System.out.println("Multiplicacion=" + altura);
+		System.out.println("Multiplicación=" + altura);
 		
-		// Division
+		// División
 		altura = 18;
 		altura = altura / 10;
-		// Dado que es una division entera, el resultado sera el entero mas cercano; para obtener el resultado exacto, se deberia cambiar el tipo de dato, por ejemplo a float.
-		System.out.println("Division=" + altura); 
+		// Dado que es una división entera, el resultado sera el entero más cercano; para obtener el resultado exacto, se deberia cambiar el tipo de dato, por ejemplo a float.
+		System.out.println("División=" + altura); 
 		
-		// Modulo
+		// Módulo
 		altura = 123;
 		altura = altura % 10;
 		System.out.println("Modulo=" + altura);
 		
-		// Expresion compuesta, con varios operadores combinados
+		// Expresión compuesta, con varios operadores combinados
 		int puntuacion = 12;
 		int total = 325 + (puntuacion * 22);
 		System.out.println("Total=" + total);

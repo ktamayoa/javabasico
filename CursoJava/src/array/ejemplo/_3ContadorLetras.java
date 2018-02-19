@@ -1,18 +1,24 @@
 package array.ejemplo;
 
+/**
+ * Este programa toma en cuenta solamente los caracteres ASCII 
+ * que no incluyen: Ñ ni vocales con tilde.
+ * @author ktamayo
+ *
+ */
 public class _3ContadorLetras {
 
 	public static void main(String[] args) {
 		String frase[] = {
-			"TODA CUESTIÓN TIENE DOS PUNTOS DE VISTA",
+			"TODA CUESTION TIENE DOS PUNTOS DE VISTA",
 			"EL EQUIVOCADO Y EL NEUTRO",
 			"TODAS LAS MUJERES TIENEN ALGO HERMOSO",
 			"AUNQUE SEA UNA PRIMA LEJANA",
-			"SE ESTÁ MURIENDO GENTE QUE ANTES NO SE MORÍA",
+			"SE ESTA MURIENDO GENTE QUE ANTES NO SE MORIA",
 			"HE OIDO HABLAR TAN BIEN DE TI",
-			"QUE CREÍA QUE ESTABAS MUERTO",
-			"RECUERDA SIEMPRE QUE ERES ÚNICO",
-			"EXACTAMENTE IGUAL QUE TODOS LOS DEMÁS",
+			"QUE CREIA QUE ESTABAS MUERTO",
+			"RECUERDA SIEMPRE QUE ERES UNICO",
+			"EXACTAMENTE IGUAL QUE TODOS LOS DEMAS",
 			"TODO TIEMPO PASADO FUE ANTERIOR.",
 			"LOS HONESTOS SON INADAPTADOS SOCIALES",
 			"LA VERDAD ABSOLUTA NO EXISTE",

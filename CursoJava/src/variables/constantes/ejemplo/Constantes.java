@@ -10,12 +10,12 @@ public class Constantes {
 	
 	public static void main(String[] args) {
 		
-		// Constante de metodo (local)
+		// Constante de método (local)
 		final String NEMONICO = "CC";
 		
 		System.out.println(NEMONICO);
 		
-		// TODO Explicacion a futuro
+		// TODO Explicación a futuro
 		System.out.println(Constantes.PI);
 		Constantes instanciaConstantes = new Constantes();
 		System.out.println(instanciaConstantes.iva);

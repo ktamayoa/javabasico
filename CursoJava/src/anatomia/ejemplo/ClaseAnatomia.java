@@ -1,10 +1,10 @@
 package anatomia.ejemplo;
 
-//Declaración de clase
+//DeclaraciÃ³n de clase
 public class ClaseAnatomia {
-	//Declaración main
+	//DeclaraciÃ³n main
 	public static void main (String[] args){
-		String descripcion = "Anatomía de un proyecto java";
+		String descripcion = "AnatomÃ­a de un proyecto java";
 		System.out.println(descripcion);
 	}
 }

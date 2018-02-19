@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class _4DoWhile {
 
 	public static void main(String[] args) {
-		File archivo = new File("c:\\miArchivo.txt");
+		File archivo = new File("e:\\miArchivo.txt");
 		Scanner miScanner = new Scanner(System.in);
 		char replica;
 
