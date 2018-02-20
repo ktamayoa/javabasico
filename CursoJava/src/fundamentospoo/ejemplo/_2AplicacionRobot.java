@@ -6,7 +6,7 @@ public class _2AplicacionRobot {
 	public static void main(String[] args) {
 		//static indica que es un método de clase, por lo tanto es compartido por todos los objetos dentro de esta aplicación (AplicacionRobot) 
 		
-		_1RobotDante dante = new _1RobotDante(); //instanciar un objeto a travpes de la "plantilla" clase _1RobotDante
+		_1Robot dante = new _1Robot(); //instanciar un objeto a través de la "plantilla" clase _1Robot
 		dante.estatus = "explorando";
 		dante.velocidad = 2;
 		dante.temperatura = 510;

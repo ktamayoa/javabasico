@@ -1,14 +1,14 @@
 package fundamentospoo.ejemplo;
 
 //La clase es un ente abstracto que se materializa a través de los objetos
-public class _1RobotDante {
+public class _1Robot {
 	
-	// Atributos de la clase 3 variables de instancia??? minuto 34
+	// Atributos de la clase
 	String estatus;
 	int velocidad;
 	float temperatura;
 
-	// Método instancia dentro de la clase ???? minuto 13 -- 2 métodos de instancia minuto 34
+	// Método dentro de la clase
 	void comprobarTemperatura() {
 		if (temperatura > 660) {
 			estatus = "Volviendo a casa";
