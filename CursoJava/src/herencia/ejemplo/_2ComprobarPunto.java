@@ -12,7 +12,7 @@ public class _2ComprobarPunto {
 		objeto1.move(4, 13);
 		System.out.println("El punto 2D está ahora en (" + objeto1.x + ", " + objeto1.y + ")");
 		System.out.println("\tEstá siendo movido -10 unidades en eje x y eje y");
-		objeto1.translate(10, 10);
+		objeto1.translate(-10, -10);
 		System.out.println("El punto 2D finaliza en (" + objeto1.x + ", " + objeto1.y + ") \n");
 		
 		
@@ -24,10 +24,6 @@ public class _2ComprobarPunto {
 		objeto2.translate(-20, -20, -20);
 		System.out.println("El punto 3D finaliza en (" + objeto2.x + ", " + objeto2.y + ", " + objeto2.z + ")");
 		
-		
-		
-			
-
 	}
 
 }
