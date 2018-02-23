@@ -28,8 +28,14 @@ public class _1PruebaToken {
 
 		// Invocación al constructor con dos argumentos
 		st2 = new StringTokenizer(cita, "@");
-		System.out.println("\nToken 1: " + st2.nextToken());
-		System.out.println("Token 2: " + st2.nextToken());
-		System.out.println("Token 3: " + st2.nextToken());
+//		System.out.println("\nToken 1: " + st2.nextToken());
+//		System.out.println("Token 2: " + st2.nextToken());
+//		System.out.println("Token 3: " + st2.nextToken());
+		
+		System.out.println();
+		for (int i = 1; st2.hasMoreTokens(); i++) {
+			System.out.println("Token " + i + ": " + st2.nextToken());
+		}
+		
 	}
 }
