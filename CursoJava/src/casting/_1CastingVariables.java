@@ -1,6 +1,6 @@
 package casting;
 
-public class _2CastingVariables {
+public class _1CastingVariables {
 
 	public static void main(String[] args) {
 		double x = 56.01;
@@ -17,5 +17,15 @@ public class _2CastingVariables {
 		// Casting explícito, int tiene menor capacidad de almacenamiento que double
 		int temp2 = (int) (temp1);
 		System.out.println("int temp2 = (int) temp1 = " + temp2);
+		
+		
+		// castear un entero a byte que su valor original sobrepase la capacidad máxima del destino 56324
+		int valorGrande = 563;
+		byte destino = (byte) valorGrande;
+		System.out.println("Valor " + valorGrande + " convertido a byte es: " + destino);
+				
+		// convertir un boolean a un entero.
+		// boolean verdadero = true;
+		// int equivalente =  (int) verdadero; // ESTO NO SE PUEDE
 	}
 }
