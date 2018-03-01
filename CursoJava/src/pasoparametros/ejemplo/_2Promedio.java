@@ -9,7 +9,7 @@ public class _2Promedio {
 		if (args.length > 0) {
 			for (int i = 0; i < args.length; i++) {
 				// parseInt método de clase de la clase integer
-				// Para cada tipo primitivo existe un objeto
+				// Para cada tipo primitivo existe una clase de envoltura
 				sum += Integer.parseInt(args[i]);
 			}
 
