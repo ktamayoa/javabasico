@@ -3,7 +3,7 @@ package metodos.ejemplo;
 public class _1ListarRango {
 
 	// int crearRango(int inferior, int superior)[]{
-	// También se puede fefinir con los corchetes correspondientes al array al
+	// También se puede definir con los corchetes correspondientes al array al
 	// final del método, por convención colocar al inicio
 	int[] crearRango(int inferior, int superior) {
 		int[] rango = new int[(superior - inferior) + 1];
