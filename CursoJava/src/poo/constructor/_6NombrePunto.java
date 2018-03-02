@@ -8,7 +8,7 @@ public class _6NombrePunto extends Point {
 	String nombre;
 
 	public _6NombrePunto(int x, int y, String nombre) {
-		super(x, y); // Siempre debe ser la primera línea
+		super(x, y); // Si se invoca al constructor mediante super, siempre debe hacerse en la primera línea
 		this.nombre = nombre;
 	}
 
