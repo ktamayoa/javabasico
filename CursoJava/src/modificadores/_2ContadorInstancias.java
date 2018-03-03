@@ -12,6 +12,7 @@ public class _2ContadorInstancias {
 		numInstancias++;
 	}
 
+	//Al ser estatic no es necesario crear una instancia de la clase
 	public _2ContadorInstancias() {
 		_2ContadorInstancias.addInstancia();
 	}
