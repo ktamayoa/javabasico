@@ -21,10 +21,21 @@ public class _2Circulo {
 		System.out.println(resultado);
 	}
 	
+	public String toString() {
+		System.out.println(super.toString());
+		return "Valores de mi circulo: x=" + x + ", y=" + y + ", radio=" + radio;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		return false;
+	}
+	
 	public static void main(String[] args) {
-//		_2Circulo circulo = new  _2Circulo(2, 3, 1);
-//		circulo.resultado();
-		_2Circulo circulo = new  _2Circulo(2, 3);
-		System.out.println(circulo);
+		_2Circulo circulo = new  _2Circulo(2, 3, 1);
+		circulo.resultado();
+		
+		_2Circulo circulo2 = new  _2Circulo(2, 3);
+		System.out.println(circulo2);
 	}
 }

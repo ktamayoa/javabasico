@@ -17,10 +17,12 @@ public class _3Caja {
 	}
 	
 	_3Caja(Point supIzq, Point infDer) {
-		x1 = supIzq.x;
-		y1 = supIzq.y;
-		x2 = infDer.x;
-		y2 = infDer.y;
+		this(supIzq.x, supIzq.y, infDer.x, infDer.y);
+//		this(supIzq, infDer.x, infDer.y);  // Solo se puede llamar a un constructor
+//		x1 = supIzq.x;
+//		y1 = supIzq.y;
+//		x2 = infDer.x;
+//		y2 = infDer.y;
 	}
 	
 	_3Caja(Point supIzq, int an, int al) {
