@@ -1,5 +1,4 @@
 import java.util.*; //importar todas las clases del paquete, métodos y atributos
-import com.paratienda.*;
 import com.paratienda.taller.*;
 
 public class Regalos {
@@ -22,7 +21,7 @@ public class Regalos {
 		//Loop for para acceder a todos los elementos de la lista
 		//Método getSize para conocer el número de artículos de la lista
 		for(int i=0; i< almacen.getSize(); i++){
-			Articulos mostrar = (Articulos) almacen.getArticulo(i);
+			Articulos mostrar = almacen.getArticulo(i);
 			
 			System.out.println("\nArtículo ID: " + mostrar.getId() +
 					" \nNombre: " + mostrar.getNombre() +

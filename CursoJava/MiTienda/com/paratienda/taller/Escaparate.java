@@ -19,12 +19,12 @@ public class Escaparate {
 		catalogo.add(art);
 	}
 	
-	//Acceder a la lista a trvés de un índice
+	//Acceder a la lista a través de un índice
 	public Articulos getArticulo(int i){
-		return (Articulos) catalogo.get(i); //??
+		return (Articulos) catalogo.get(i);
 	}
 	
-	//Método Size cantidad de árticulos de la ista enlazada
+	//Método Size cantidad de árticulos de la lista enlazada
 	public int getSize(){
 		return catalogo.size();
 	}

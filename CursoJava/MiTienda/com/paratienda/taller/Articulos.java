@@ -20,13 +20,13 @@ public class Articulos implements Comparable{
 		
 		//Precio varíe segun la cantidad del producto en stock
 		if (cantidad > 400)
-			precio = detalle*.5D;//50 porciento ????
+			precio = detalle*.5D;  //50 porciento .5D=double
 		else if (cantidad > 200)
 			precio = detalle*.6D;
 		else
 			precio = detalle*.7D;
 		
-		precio = Math.floor(precio*100+.5) /100; //va a tener 2 decimales como máximo ?????
+		precio = Math.floor(precio*100+.5)/100; //floor va a tener 2 decimales como máximo
 		
 	}
 	
@@ -35,8 +35,8 @@ public class Articulos implements Comparable{
 	//Error The type Articulos must implement the inherited abstract method Comparable.compareTo(Object)
 	//La clase debe implementar el/los métodos de la interface en este caso el método compareTo
 	//compareTo compara 2 objetos de una clase, el objeto actual desde el que se usa y el objeto que le pasa como argumento al método
-	//El valor e retorno indicará el orden natural en el que hay que colocar al objeto
-	//Si los 2 objetos son iguales devuelve 0, si el objeto actual es menor devuelve -1, si el objeto actual es mayor devuelve 1 (colar encima colocar debajo minuto 40) 
+	//El valor de retorno indicará el orden natural en el que hay que colocar al objeto
+	//Si los 2 objetos son iguales devuelve 0, si el objeto actual es menor devuelve -1, si el objeto actual es mayor devuelve 1 (colacar encima colocar debajo minuto 40) 
 	
 	public int compareTo(Object obj){
 		//Desaparece el error de arriba pero ahora hay que implementarlo
@@ -51,7 +51,6 @@ public class Articulos implements Comparable{
 		return 0;
 		
 	}
-	
 
 	
 	//Métodos accesores públicos, return para devolver el valor que tiene la variable
