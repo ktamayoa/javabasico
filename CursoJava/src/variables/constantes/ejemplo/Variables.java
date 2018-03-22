@@ -21,13 +21,14 @@ public class Variables {
 		System.out.println(apellido);
 		String otraVariable = nombre = apellido = "prueba";
 		System.out.println(otraVariable);
+		System.out.println(nombre);
 
-		// Ejemplos que no cumplen con las reglas de nombrado
+		// Ejemplos que no cumplen con las reglas de nombrado si dan error
 		// int 4share;
 		// int _var 1;
 		// int $var.2;
 		
-		// Ejemplos que no cumplen con las convenciones de nombrado
+		// Ejemplos que no cumplen con las convenciones de nombrado no dan error
 		// int asdlkasdjas;
 		// int Hola;
 		// float mivaRIaBLELocaCC;
