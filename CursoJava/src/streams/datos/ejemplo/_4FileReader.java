@@ -1,4 +1,4 @@
-package streams.ejemplo;
+package streams.datos.ejemplo;
 
 import java.io.FileReader;
 import java.io.IOException;

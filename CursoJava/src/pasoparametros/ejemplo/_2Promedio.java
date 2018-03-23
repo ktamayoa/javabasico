@@ -10,6 +10,7 @@ public class _2Promedio {
 			for (int i = 0; i < args.length; i++) {
 				// parseInt método de clase de la clase integer
 				// Para cada tipo primitivo existe una clase de envoltura
+				System.out.println("Argumento recibido: " + args[i]);
 				sum += Integer.parseInt(args[i]);
 			}
 

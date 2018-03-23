@@ -14,12 +14,21 @@ public class _4ReferenciaObjeto {
 		System.out.println("Point1: " + pt1.x + ", " + pt1.y);
 		System.out.println("Point2: " + pt2.x + ", " + pt2.y);
 		
+		Point pt4, pt5;
+		pt4 = new Point(10, 10);
+		pt5 = new Point(10, 10); //pt2 sería un objeto distinto de pt1
+		// Modifica las coordenadas de Point pt1
+		pt4.x = 20;
+		pt4.y = 20;
+		System.out.println("Point1: " + pt4.x + ", " + pt4.y);
+		System.out.println("Point2: " + pt5.x + ", " + pt5.y);
+		
 		int entero = 5;
 		Point p3 = new Point(7, 8);
 		miMetodo(entero, p3);
 		System.out.println("------------------------------");
 		System.out.println("Datos luego de invocacion, fuera del método:");
-		imprimir(entero, p3);
+		imprimir(entero, p3); //entero no cambia porque pasa por valor, p3 si cambia porque pasa por referencia
 	}
 	
 	private static void miMetodo(int numero, Point p) {
