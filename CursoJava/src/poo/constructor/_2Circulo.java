@@ -21,6 +21,7 @@ public class _2Circulo {
 		System.out.println(resultado);
 	}
 	
+	//??? a qué hora llamó a este método
 	public String toString() {
 		System.out.println(super.toString());
 		return "Valores de mi circulo: x=" + x + ", y=" + y + ", radio=" + radio;
@@ -32,7 +33,7 @@ public class _2Circulo {
 	}
 	
 	public static void main(String[] args) {
-		_2Circulo circulo = new  _2Circulo(2, 3, 1);
+		_2Circulo circulo = new  _2Circulo(2, 3, 4);
 		circulo.resultado();
 		
 		_2Circulo circulo2 = new  _2Circulo(2, 3);

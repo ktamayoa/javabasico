@@ -41,7 +41,7 @@ public class _3Caja {
 		_3Caja rect;
 		System.out.println("Llamando a construir caja con coordenadas " 
 				+ "(25, 25) y (20, 50) : ");
-		rect = new _3Caja(25, 25, 50, 50);
+		rect = new _3Caja(25, 25, 20, 50);
 		rect.imprimirCaja();
 		
 		System.out.println("\nLlamando a construir con puntos " 

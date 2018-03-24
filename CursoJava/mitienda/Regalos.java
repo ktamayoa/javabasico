@@ -6,7 +6,7 @@ public class Regalos {
 	//para convertirlo en aplicación
 	public static void main(String[] args){
 		
-		//instanciar un objeto de la clase escapareate, al que se accede por el paquete
+		//instanciar un objeto de la clase Escaparate, al que se accede por el paquete
 		Escaparate almacen = new Escaparate();
 		
 		//Añadir artículos mediante la variable catalogo
@@ -15,7 +15,7 @@ public class Regalos {
 		almacen.addArticulo("C03", "SUDADERA", "10.49", "800");
 		almacen.addArticulo("D01", "CAMISETA", "16.99", "90");
 	
-		//Llamar al método sort para ordernar todos los árticulos
+		//Llamar al método sort para ordenar todos los árticulos
 		almacen.sort();
 		
 		//Loop for para acceder a todos los elementos de la lista

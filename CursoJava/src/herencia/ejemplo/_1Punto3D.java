@@ -11,7 +11,7 @@ public class _1Punto3D extends Point{
 	public _1Punto3D(int x, int y, int z)	{
 		//hace referencia al constructor de la superclase en este caso el constructor recibe los valores x y y
 		super (x, y);
-		//this significa este; hace referencia a la instancia actual. Mediante este se puede acceder a los miembros (variables o métodos) de la instancia.
+		//this significa this (este); hace referencia a la instancia actual. Mediante este se puede acceder a los miembros (variables o métodos) de la instancia.
 		this.z = z;
 	}
 	

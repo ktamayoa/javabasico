@@ -1,24 +1,8 @@
 package poo.objetos;
 
-public class Persona {
+public class Mujer {
 
-	static int numeroSentidos = 5;
-	int edad;
-	String nombre;
-	char genero;
-
-	public Persona() {
-	}
-
-	public Persona(int edad, String nombre, char genero) {
-		this.edad = edad;
-		this.nombre = nombre;
-		this.genero = genero;
-	}
-
-	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
-
 		Persona chris = new Persona(35, "Chris", 'M');
 		Persona katty = new Persona(41, "Katty", 'F');
 		
@@ -36,6 +20,8 @@ public class Persona {
 		System.out.println(chris.numeroSentidos);
 		System.out.println(katty.numeroSentidos);
 		System.out.println(katty.edad);
-		System.out.println(chris.edad); //Cambió la variable de clase a través de la instancia ???
+		System.out.println(chris.edad); //Cambió la variable de clase y las instancias de esa clase ???
+
 	}
+
 }
