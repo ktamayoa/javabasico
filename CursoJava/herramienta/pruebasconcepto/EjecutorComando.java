@@ -33,7 +33,9 @@ public class EjecutorComando {
 
 			// El argumento /C indica que se ejecuta el comando especificado por
 			// la cadena y luego termina
-			comando.ejecutar("cmd /C date");
+//			comando.ejecutar("cmd /C date");
+			comando.ejecutar("cmd /C git --clon");
+
 		} catch (IOException e) {
 			System.out.println("error" + e.getMessage());
 		} catch (Exception e) {
