@@ -1,6 +1,7 @@
 package streams.inputoutput.ejemplo;
 
-import java.io.*;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class _2EscribirByte {
 

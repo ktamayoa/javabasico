@@ -6,7 +6,7 @@ public class _5LeerFuente {
 
 	public static void main(String[] args) {
 		try{
-			FileReader archivo = new FileReader("src\\streams\\ejemplo\\_5LeerFuente.java"); //Asociar un archivo indicando la ruta
+			FileReader archivo = new FileReader("src\\streams\\datos\\ejemplo\\_5LeerFuente.java"); //Asociar un archivo indicando la ruta
 			BufferedReader buff = new BufferedReader(archivo); //Filtro buffer que se asocia con la fuente de entrada en este caso archivo
 			
 			boolean eof = false;
