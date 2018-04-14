@@ -3,12 +3,12 @@ package gui;
 import javax.swing.JFrame;
 
 //Extender de la clase JFrame (no abstracta ya que sus métodos están implementados)
-public class MarcoBasico extends JFrame {
+public class _1MarcoBasico extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 
 	//En el constructor default llamar a super
-	public MarcoBasico() {
+	public _1MarcoBasico() {
 		//super("Mi primer frame"); //Colocar el texto que irá en el título
 		//Se puede utilizar otro constructor
 		super();
@@ -19,6 +19,6 @@ public class MarcoBasico extends JFrame {
 	}
 	
 	public static void main(String[] args) {
-		new MarcoBasico(); //Llamar al constructor de la clase
+		new _1MarcoBasico(); //Llamar al constructor de la clase
 	}
 }

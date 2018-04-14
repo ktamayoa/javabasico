@@ -4,6 +4,12 @@ import java.util.*; //Calendar;
 
 public class _4Reloj {
 	public static void main(String[] args) {
+		_4Reloj reloj = new _4Reloj();
+		System.out.println(reloj.getTiempo());
+	}
+
+	public String getTiempo() {
+		StringBuffer tiempo = new StringBuffer();
 		// Obtener fecha y hora actual
 		Calendar ahora = Calendar.getInstance(); // ahora, objeto de la clase Calendar
 
@@ -15,69 +21,68 @@ public class _4Reloj {
 
 		// Mostrar saludo
 		if (hora < 12)
-			System.out.println("Buenos días. \n");
+			tiempo.append("Buenos días. \n");
 		else if (hora < 17)
-			System.out.println("Buenas tardes. \n");
+			tiempo.append("Buenas tardes. \n");
 		else
-			System.out.println("Buenas noches. \n");
+			tiempo.append("Buenas noches. \n");
 
 		// Iniciar el mensaje horario mostrando las horas
-		System.out.print("Son las ");
-		System.out.print(hora > 12 ? hora - 12 : hora);
-		System.out.print(" horas ");
+		tiempo.append("Son las ");
+		tiempo.append(hora > 12 ? hora - 12 : hora);
+		tiempo.append(" horas ");
 
 		// Mostrando los minutos
 		if (minuto != 0) {
-			System.out.print(minuto + " ");
-			System.out.print((minuto != 1) ? "minutos " : "minuto ");
+			tiempo.append(minuto + " ");
+			tiempo.append((minuto != 1) ? "minutos " : "minuto ");
 		}
 
 		// Mostrar el día
-		System.out.print("del día " + dia + " de ");
+		tiempo.append("del día " + dia + " de ");
 
 		// Mostrar el nombre del mes
 		switch (mes) {
 		case 1:
-			System.out.print("Enero");
+			tiempo.append("Enero");
 			break;
 		case 2:
-			System.out.print("Febrero");
+			tiempo.append("Febrero");
 			break;
 		case 3:
-			System.out.print("Marzo");
+			tiempo.append("Marzo");
 			break;
 		case 4:
-			System.out.print("Abril");
+			tiempo.append("Abril");
 			break;
 		case 5:
-			System.out.print("Mayo");
+			tiempo.append("Mayo");
 			break;
 		case 6:
-			System.out.print("Junio");
+			tiempo.append("Junio");
 			break;
 		case 7:
-			System.out.print("Julio");
+			tiempo.append("Julio");
 			break;
 		case 8:
-			System.out.print("Agosto");
+			tiempo.append("Agosto");
 			break;
 		case 9:
-			System.out.print("Septiembre");
+			tiempo.append("Septiembre");
 			break;
 		case 10:
-			System.out.print("Octubre");
+			tiempo.append("Octubre");
 			break;
 		case 11:
-			System.out.print("Noviembre");
+			tiempo.append("Noviembre");
 			break;
 		case 12:
-			System.out.print("Diciembre");
+			tiempo.append("Diciembre");
 			break;
 
 		}
-
 		// Mostrar el año
-		System.out.println(" de " + an);
-
+		tiempo.append(" de " + an);
+		return tiempo.toString();
 	}
 }
