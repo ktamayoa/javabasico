@@ -25,6 +25,7 @@ public class _5ComboBoxes extends JFrame {
 		curso.addItem("Curso de JavaScript");
 		curso.addItem("Curso de Ruby");
 		curso.addItem("Curso de Angular");
+//		curso.setEditable(true);
 		
 		setLayout(dis);
 		add(curso);

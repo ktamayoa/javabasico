@@ -15,7 +15,7 @@ public class _3CampoTexto extends JFrame {
 		setSize(400,80);		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		JLabel etiquetaPagina = new JLabel("Dirección página web: ", JLabel.RIGHT);
+		JLabel etiquetaPagina = new JLabel("Dirección página web: ", JLabel.LEFT);
 		JTextField direccionPagina = new JTextField("Escribe aqui", 30);
 		
 		FlowLayout flo = new FlowLayout();

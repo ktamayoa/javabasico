@@ -6,11 +6,11 @@ import javax.swing.ButtonGroup;
 import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 
-public class _4ButtonGroupJCheckBoox extends JFrame {
+public class _4ButtonGroupJCheckBox extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 
-	public _4ButtonGroupJCheckBoox() {
+	public _4ButtonGroupJCheckBox() {
 		super("Cajas Chequeo");
 		setSize(345,120);		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -38,6 +38,6 @@ public class _4ButtonGroupJCheckBoox extends JFrame {
 	}
 	
 	public static void main(String[] args) {
-		new _4ButtonGroupJCheckBoox();
+		new _4ButtonGroupJCheckBox();
 	}
 }
