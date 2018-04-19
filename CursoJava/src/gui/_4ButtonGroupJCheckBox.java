@@ -5,6 +5,8 @@ import java.awt.FlowLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JCheckBox;
 import javax.swing.JFrame;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
 
 public class _4ButtonGroupJCheckBox extends JFrame {
 
@@ -12,6 +14,8 @@ public class _4ButtonGroupJCheckBox extends JFrame {
 
 	public _4ButtonGroupJCheckBox() {
 		super("Cajas Chequeo");
+		
+		
 		setSize(345,120);		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -19,6 +23,16 @@ public class _4ButtonGroupJCheckBox extends JFrame {
 		JCheckBox cursoFlash = new JCheckBox("Curso de Flash", true);
 		JCheckBox cursoPHP = new JCheckBox("Curso de PHP", false);
 		JCheckBox cursoRuby = new JCheckBox("Curso de Ruby", false);
+		
+		try {
+//			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+//			UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
+			UIManager.setLookAndFeel("com.sun.java.swing.plaf.motif.MotifLookAndFeel");
+			SwingUtilities.updateComponentTreeUI(cursoJava); //SwingUtilities.updateComponentTreeUI(this);
+		} catch (Exception e) {
+			System.out.println("No se ha podido configurar el look and feel: " + e.getMessage());
+			e.printStackTrace();
+		}
 		
 		FlowLayout dis = new FlowLayout();
 		ButtonGroup cursos = new ButtonGroup();
