@@ -1,4 +1,4 @@
-package gui.componentes.avanzados;
+package gui.avanzado;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;

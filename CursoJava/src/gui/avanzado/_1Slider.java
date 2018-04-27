@@ -1,4 +1,4 @@
-package gui.componentes.avanzados;
+package gui.avanzado;
 
 import javax.swing.JFrame;
 import javax.swing.JSlider;
