@@ -46,7 +46,7 @@ public class _4ToolBar extends JFrame {
 		setLayout(borde);
 		add("North", barra);
 		add("Center", scroll);
-		pack();
+		pack(); //ajusta el frame de acuerdo a los componentes que contiene
 		setVisible(true);
 	}
 	
