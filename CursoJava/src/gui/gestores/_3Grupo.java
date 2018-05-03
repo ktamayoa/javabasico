@@ -1,4 +1,4 @@
-package gui.gestordiseño;
+package gui.gestores;
 
 import java.awt.FlowLayout;
 
