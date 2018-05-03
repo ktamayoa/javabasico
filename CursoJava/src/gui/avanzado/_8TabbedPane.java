@@ -1,10 +1,3 @@
-/**
- * Los iconos usados en este ejemplo fueron obtenidos de:
- * _________________________________________
- * Mark James
- * http://www.famfamfam.com/lab/icons/silk/
- * _________________________________________
- */
 package gui.avanzado;
 
 import java.awt.BorderLayout;
@@ -27,16 +20,16 @@ public class _8TabbedPane extends JPanel {
 		principal.add(label1);
 		JPanel avanzada = new JPanel();
 		JLabel label2 = new JLabel("Este es el panel Avanzada");
-		principal.add(label2);
+		avanzada.add(label2);
 		JPanel privada = new JPanel();
 		JLabel label3 = new JLabel("Este es el panel Privada");
-		principal.add(label3);
+		privada.add(label3);
 		JPanel email = new JPanel();
 		JLabel label4 = new JLabel("Este es el panel Email");
-		principal.add(label4);
+		email.add(label4);
 		JPanel seguridad = new JPanel();
 		JLabel label5 = new JLabel("Este es el panel Seguridad");
-		principal.add(label5);
+		seguridad.add(label5);
 
 		JTabbedPane pestanias = new JTabbedPane();
 		ImageIcon icon = new ImageIcon("img/middle.gif");
