@@ -5,11 +5,13 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class _5AsistenteEncuesta extends JPanel implements ActionListener {
+
+	private static final long serialVersionUID = 1L;
 	
 	//Interface que permite el trabajo con eventos, responde a eventos
 	//actionPerformed método llamado cuando un componente está siendo escuchado para generar un evento 
 	//Cuando se haga clic en el botón se llamará al metodo actionPerformed aumentará la variable en 1 y usará el método show para mostrar una nueva carta 
-	
+
 	int cartaActual = 0;
 	
 	CardLayout cartas = new CardLayout();
@@ -60,6 +62,8 @@ public class _5AsistenteEncuesta extends JPanel implements ActionListener {
 }
 
 class PanelEncuesta extends JPanel{
+	
+	private static final long serialVersionUID = 1L;
 	
 	JLabel pregunta;
 	JRadioButton[] respuesta;

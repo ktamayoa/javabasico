@@ -19,8 +19,8 @@ public class _1Alfabeto extends JFrame {
 		setSize(360, 120);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		//FlowLayout milayout = new FlowLayout(FlowLayout.LEFT); //por default 5px de separación entre componentes y filas
-		FlowLayout milayout = new FlowLayout(FlowLayout.LEFT, 25, 15); //Con este constructor se puede definir la sepación entre componentes y filas
+		FlowLayout milayout = new FlowLayout(FlowLayout.CENTER); //por default 5px de separación entre componentes y filas
+		//FlowLayout milayout = new FlowLayout(FlowLayout.CENTER, 25, 15); //Con este constructor se puede definir la sepación entre componentes y filas
 		setLayout(milayout);
 		add(a);
 		add(b);

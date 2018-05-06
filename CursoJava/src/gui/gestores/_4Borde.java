@@ -18,6 +18,7 @@ public class _4Borde extends JFrame {
 		setSize(240, 280);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
+		//setLayout(new BorderLayout(10, 10));
 		setLayout(new BorderLayout());
 
 		add(botonN, BorderLayout.NORTH);

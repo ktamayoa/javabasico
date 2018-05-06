@@ -9,7 +9,7 @@ public class _2Pila extends JFrame {
 	
 	public _2Pila(){
 		super("Alfabeto");
-		setSize(430, 150);
+		setSize(200, 150);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		//Crear panel superior

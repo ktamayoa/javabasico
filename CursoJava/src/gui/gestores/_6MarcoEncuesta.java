@@ -4,6 +4,8 @@ import java.awt.*;
 import javax.swing.*;
 
 public class _6MarcoEncuesta extends JFrame {
+	
+    private static final long serialVersionUID = 1L;
 
 	public _6MarcoEncuesta(){
 		super("Encuesta");
