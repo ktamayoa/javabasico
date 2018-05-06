@@ -43,8 +43,8 @@ public class _5AsistenteEncuesta extends JPanel implements ActionListener {
 		
 		//En el botón se colocará un listener (escucha) para cuando se da clic en el botón
 		for (int i=0; i < pregunta.length; i++){
-			pregunta[1].botonSiguiente.addActionListener(this);
-			pregunta[1].botonFinal.addActionListener(this);
+			pregunta[i].botonSiguiente.addActionListener(this);
+			pregunta[i].botonFinal.addActionListener(this);
 			add(pregunta[i], "Carta " + i);
 		}
 
