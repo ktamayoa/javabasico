@@ -1,7 +1,6 @@
 package gui.gestores;
 
-import java.awt.*;
-import javax.swing.*;
+import javax.swing.JFrame;
 
 public class _6MarcoEncuesta extends JFrame {
 	
