@@ -40,8 +40,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class _5FocusEventoDemo extends JFrame
-        implements FocusListener {
+public class _5FocusEventoDemo extends JFrame implements FocusListener {
     final static String newline = "\n";
     JTextArea display;
     

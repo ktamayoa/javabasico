@@ -44,7 +44,9 @@ public class _6ElegirFormato extends JFrame implements ItemListener {
         int eleccion = cajaFormato.getSelectedIndex(); //obtener index del item seleccionado
         if (eleccion > 0) { //En el ejemplo el primer índice "(elige formato)" no tiene etiqueta
             etiquetaDescripcion.setText(descripciones[eleccion-1]);
-        }
+        }else
+        	etiquetaDescripcion.setText("");
+        	
     }
     
     public static void main(String args[]) {

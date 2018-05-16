@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-//Ejemplo cuando más de un componenete debe realizar la misma acción botones e items
+//Ejemplo cuando un componenete ejecuta 2 eventos
 
 public class _3Votacion {
 	
