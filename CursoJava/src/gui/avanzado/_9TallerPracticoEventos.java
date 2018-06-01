@@ -119,7 +119,7 @@ public class _9TallerPracticoEventos implements ItemListener, ActionListener, Ru
 			case 6:
 				addUnoACampo(gui.obtener6);
 				gui.parar.setEnabled(false);
-				gui.parar.setEnabled(true);
+				gui.jugar.setEnabled(true);
 				jugando = null;
 			}
 			try {

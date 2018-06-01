@@ -12,14 +12,15 @@ public class _1CambiarTitulo extends JFrame implements ActionListener {
 	public _1CambiarTitulo(){
 		super("Barra de Título");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		b1.addActionListener(this);
+		
+		b1.addActionListener(this); //this, es el propio botón que debe ser vigilado
 		b2.addActionListener(this);
 		
 		FlowLayout flow = new FlowLayout();
 		setLayout(flow);
 		add(b1);
 		add(b2);
-		pack();
+		pack(); //Forma en la que se van a distribuir
 		setVisible(true);
 	}
 	
