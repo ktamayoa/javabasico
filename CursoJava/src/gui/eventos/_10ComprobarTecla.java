@@ -4,11 +4,11 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-//creamos clase _9ComprobarTecla subclase de JFrame
-public class _9ComprobarTecla extends JFrame {
+//creamos clase _10ComprobarTecla subclase de JFrame
+public class _10ComprobarTecla extends JFrame {
 	JLabel etiquetaTecla = new JLabel("Pulsa cualquier tecla");
 
-	public _9ComprobarTecla() {
+	public _10ComprobarTecla() {
 		super("Pulsa una tecla");
 		setSize(300, 200);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -21,15 +21,15 @@ public class _9ComprobarTecla extends JFrame {
 	}
 
 	public static void main(String args[]) {
-		new _9ComprobarTecla();
+		new _10ComprobarTecla();
 	}
 }
 
 class MonitorearTecla extends KeyAdapter {
 
-	_9ComprobarTecla display;
+	_10ComprobarTecla display;
 
-	MonitorearTecla(_9ComprobarTecla display) {
+	MonitorearTecla(_10ComprobarTecla display) {
 		this.display = display;
 	}
 

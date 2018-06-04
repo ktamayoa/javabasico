@@ -4,10 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-//Clase _7AtrapaMouse implementa ActionListener con dos componentes (JLable y JButton)
-public class _7AtrapaMouse extends JFrame implements ActionListener {
+//Clase _8AtrapaMouse implementa ActionListener con dos componentes (JLable y JButton)
+public class _8AtrapaMouse extends JFrame implements ActionListener {
 
-	public _7AtrapaMouse() {
+	public _8AtrapaMouse() {
 		super("Mensaje");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(400, 200);
@@ -29,7 +29,7 @@ public class _7AtrapaMouse extends JFrame implements ActionListener {
 	}
 
 	public static void main(String[] arguments) {
-		new _7AtrapaMouse();
+		new _8AtrapaMouse();
 	}
 
 	//Panel que forma parte del marco
