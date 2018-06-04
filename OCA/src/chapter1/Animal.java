@@ -1,4 +1,3 @@
-package herencia.ejemplo;
 
 public interface Animal {
 	public default String getName() {
