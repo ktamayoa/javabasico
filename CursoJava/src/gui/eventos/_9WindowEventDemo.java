@@ -32,7 +32,7 @@ package gui.eventos;
  */
 
 /*
- * _8WindowEventDemo
+ * _9WindowEventDemo
  */
 
 import java.awt.BorderLayout;
@@ -53,11 +53,11 @@ import javax.swing.Timer;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-public class _8WindowEventDemo extends JFrame implements WindowListener,
+public class _9WindowEventDemo extends JFrame implements WindowListener,
     WindowFocusListener, WindowStateListener {
   static final String newline = System.getProperty("line.separator");
   static final String space = "    ";
-  static _8WindowEventDemo frame = new _8WindowEventDemo("_8WindowEventDemo");
+  static _9WindowEventDemo frame = new _9WindowEventDemo("_9WindowEventDemo");
   JTextArea display;
 
   public static void main(String[] args) {
@@ -118,7 +118,7 @@ public class _8WindowEventDemo extends JFrame implements WindowListener,
     checkWM();
   }
 
-  public _8WindowEventDemo(String name) {
+  public _9WindowEventDemo(String name) {
     super(name);
   }
 

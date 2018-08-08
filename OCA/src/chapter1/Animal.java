@@ -16,7 +16,6 @@ abstract class Otter implements Mammal, Animal {
 
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
 		return Animal.super.getName();
 	}
 }
