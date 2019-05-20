@@ -25,7 +25,7 @@ public class ElectricCar extends Car {
 	public static void main(String[] wheels) {
 		final Car car = new ElectricCar();
 		System.out.print(car.drive());
-		System.out.print(car.prueba());
+		//System.out.print(car.prueba());
 	}
 
 }

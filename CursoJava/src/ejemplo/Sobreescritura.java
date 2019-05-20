@@ -20,7 +20,7 @@ final class Clownfish extends Fish {
 
 	public static void main(String[] bubbles) {
 		final Fish f = new Clownfish();
-		f.getFish();
+		//f.getFish();
 		System.out.println("swim!");
 	}
 }

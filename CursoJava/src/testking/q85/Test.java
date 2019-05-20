@@ -1,4 +1,4 @@
-package q85;
+package testking.q85;
 
 public class Test {
 

@@ -23,7 +23,6 @@ interface PublicClass4 {
 }
 
 
-public interface PublicClass5 {
-
-}
+//public interface PublicClass5 {
+//}
 

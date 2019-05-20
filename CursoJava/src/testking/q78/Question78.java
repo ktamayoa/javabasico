@@ -1,4 +1,4 @@
-package q78;
+package testking.q78;
 
 public class Question78 {
 
