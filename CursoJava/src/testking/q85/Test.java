@@ -17,7 +17,7 @@ public class Test {
 		 */
 		
 		boolean a = new Boolean(Boolean.valueOf(args[0])); // se envia "TRUE" .: es true tanto en valueOf como en el constructor de la clase de envoltura
-		boolean b = new Boolean(args[1]); // se envia "null" .: es false
+		boolean b = new Boolean(args[1]); // se envia "null"(cadena de texto) .: es false
 		System.out.println(a + " " + b); // despliega: true false
 	}
 }
