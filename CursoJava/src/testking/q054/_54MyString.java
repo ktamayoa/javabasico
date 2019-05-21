@@ -1,4 +1,4 @@
-package testking.q54;
+package q054;
 
 public class _54MyString {
 	String msg;

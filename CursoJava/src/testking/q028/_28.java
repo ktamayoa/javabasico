@@ -1,4 +1,4 @@
-package testking.q28;
+package q028;
 
 public class _28 {
 	static int i;

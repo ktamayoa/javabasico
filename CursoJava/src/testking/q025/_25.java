@@ -1,4 +1,4 @@
-package testking.q25;
+package q025;
 
 import javax.swing.plaf.BorderUIResource.EmptyBorderUIResource;
 
