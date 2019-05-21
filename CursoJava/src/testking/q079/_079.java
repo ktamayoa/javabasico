@@ -4,8 +4,8 @@ public class _079 {
 
 	public static void main(String[] args) {
 		Caller c = new Caller();
-		//c.start();
-		//c.init();
+		//c.start();  // No se puede acceder porque es privado en la clase Caller
+		//c.init();   // No se puede acceder porque es privado en la clase Caller
 	}
 }
 
