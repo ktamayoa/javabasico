@@ -11,7 +11,7 @@ public class Fragment {
 		for (int e : data){
 			if(e != key){
 				continue;
-				//count++; //código inalcanzable
+				//count++; // código inalcanzable por lo que la clase no compila. (Respuesta: A)
 			}
 		}
 		
