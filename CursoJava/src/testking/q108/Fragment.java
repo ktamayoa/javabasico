@@ -8,21 +8,21 @@ public class Fragment {
 		int idx = 0;
 
 		// Opción A
-//		do {
-//			idx++;
-//		} while (idx >= size);
+		//do {
+		//	idx++;
+		//} while (idx >= size);
 
 		// Opción B
-//		while (idx < size) {
-//			idx++;
-//		}
+		//while (idx < size) {
+		//	idx++;
+		//}
 
 		// Opción C
 		do {
 			idx++;
 		} while (idx < size - 1);
 
-//		// Opción D
+		// Opción D
 //		do {
 //			idx++;
 //		} while (idx <= size);
