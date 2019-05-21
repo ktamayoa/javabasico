@@ -27,4 +27,7 @@ class EBook extends Book {	//line n3
 	public void readBook(){
 		System.out.println("Read E-Book");
 	}
+	
+	//falta implementar download
+	
 }
