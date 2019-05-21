@@ -1,4 +1,4 @@
-package testking.q11;
+package q011;
 
 interface Readable{
 	public void readBook();

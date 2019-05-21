@@ -1,4 +1,4 @@
-package testking.q43Acc;
+package q043Acc;
 
 public class _43Acc {
  int p;

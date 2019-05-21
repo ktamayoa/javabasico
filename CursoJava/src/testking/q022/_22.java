@@ -1,4 +1,4 @@
-package testking.q22;
+package q022;
 
 public class _22 {
 

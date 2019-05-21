@@ -1,4 +1,4 @@
-package testking.q53;
+package q053;
 
 public class _53 {
 
