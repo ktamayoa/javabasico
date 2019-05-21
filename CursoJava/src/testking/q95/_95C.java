@@ -1,8 +1,5 @@
 package testking.q95;
 
-import java.util.ArrayList;
-import java.util.List;
-
 class A {
 	public void test(){
 		System.out.println("A");
