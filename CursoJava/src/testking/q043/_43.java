@@ -1,6 +1,6 @@
 package q043;
 
-import testking.q43Acc._43Acc;
+import q043Acc._43Acc;
 
 public class _43 extends _43Acc {
 
