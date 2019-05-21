@@ -11,8 +11,8 @@ public class Fragmento {
 		points.add(3);
 		points.add(4);
 		points.add(null);
-		points.remove(2);
-		points.remove(null);
+		points.remove(2);  // elimina el elemento en la posición 2 => 3
+		points.remove(null); // elimina el objeto null
 		System.out.println(points);
 	}
 
