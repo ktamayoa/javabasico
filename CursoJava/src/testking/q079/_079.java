@@ -1,6 +1,6 @@
-package testking.q79;
+package q079;
 
-public class _79 {
+public class _079 {
 
 	public static void main(String[] args) {
 		Caller c = new Caller();

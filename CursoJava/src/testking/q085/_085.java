@@ -1,6 +1,6 @@
-package testking.q85;
+package q085;
 
-public class Test {
+public class _085 {
 
 	public static void main(String[] args) {
 		

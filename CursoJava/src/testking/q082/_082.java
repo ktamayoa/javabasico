@@ -1,6 +1,6 @@
-package testking.q82;
+package q082;
 
-public class _82 {
+public class _082 {
 
 	private char var;
 	
@@ -9,8 +9,8 @@ public class _82 {
 		char var2 = var1;
 		var2 = 'e';
 		
-		_82 obj1 = new _82();
-		_82 obj2 = obj1;
+		_082 obj1 = new _082();
+		_082 obj2 = obj1;
 		
 		obj1.var = 'i';
 		obj2.var = 'o';

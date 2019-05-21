@@ -1,7 +1,7 @@
-package testking.q96;
+package q096;
 
 
-public class _96 {
+public class _096 {
 
 	public static void doSum(Integer x, Integer y){
 		System.out.println("Integer sum is " + (x + y));

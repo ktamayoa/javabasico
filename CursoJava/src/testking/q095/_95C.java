@@ -1,4 +1,4 @@
-package testking.q95;
+package q095;
 
 class A {
 	public void test(){

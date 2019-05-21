@@ -1,6 +1,6 @@
-package testking.q70;
+package q070;
 
-public class _70 {
+public class _070 {
 
 	public static void main(String[] args) {
 		Boolean[] bool = new Boolean[2];

@@ -1,6 +1,6 @@
-package testking.q78;
+package q078;
 
-public class Question78 {
+public class _078 {
 
 	public static void main(String[] args) {
 		int n[][] = { { 1, 3 }, { 2, 4 } };

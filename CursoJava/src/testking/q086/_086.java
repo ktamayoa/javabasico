@@ -1,6 +1,6 @@
-package testking.q86;
+package q086;
 
-public class Fragment {
+public class _086 {
 
 	public static void main(String[] args) {
 		int[][] arr = new int[2][4];
