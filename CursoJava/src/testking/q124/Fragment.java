@@ -8,7 +8,7 @@ public class Fragment {
 		int j=20;
 		int k= j += i/5;
 		
-		System.out.println(i + ":" + j + ":" + ":" + k);
+		System.out.println(i + " : " + j + " : " + k);  // Imprime: 10 : 22 : 22
 
 	}
 }
