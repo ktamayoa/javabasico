@@ -1,5 +1,8 @@
 package q119;
 
+/*
+ * Respuesta: D, la compilación falla.
+ */
 
 public class Test {
 	

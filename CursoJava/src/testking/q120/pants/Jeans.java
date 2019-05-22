@@ -1,5 +1,9 @@
 package q120.pants;
 
+/*
+ * Las respuestas correctas son: B y C
+ */
+
 //line n1
 //opción A
 //import q120.Shirt;
